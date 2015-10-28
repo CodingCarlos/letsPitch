@@ -58,6 +58,7 @@ function startCounter(minutes, myElement) {
 
     element.html(minutes + ":00");
 
+    clearInterval(interval);
     interval = setInterval(function() {
         updateCounter();
     }, 1000);
@@ -71,6 +72,7 @@ function stopCounter() {
 // Continue
 function continueCounter() {
     //console.log(counter);
+    clearInterval(interval);
     interval = setInterval(function() {
         updateCounter(element);
     }, 1000);
