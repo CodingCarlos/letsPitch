@@ -64,6 +64,9 @@
     <gap:plugin name="org.apache.cordova.splashscreen" /> 
     -->
     <gap:plugin name="org.apache.cordova.vibration" />
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
