@@ -137,7 +137,7 @@ function minuteAlert(minutes) {
     vibrations = iniMinutes - minutes;
 
     for (var i = 0; i < minutes; i++) {
-        navigator.notification.vibrate(1000);
+        navigator.vibrate(1000);
     };
 
     console.log(" ALERTA: " + vibrations);
@@ -145,14 +145,14 @@ function minuteAlert(minutes) {
 
 function timeoutAlert() {
     console.log(" ALERTA: TREINTA SEGUNDOS");
-    navigator.notification.vibrate(0200);
-    navigator.notification.vibrate(0200);
-    navigator.notification.vibrate(0200);
+    navigator.vibrate(0200);
+    navigator.vibrate(0200);
+    navigator.vibrate(0200);
 }
 
 function lastAlert(seconds) {
     console.log(" ALERTA: QUEDAN " + seconds + " SEGUNDOS");
     for (var i = 6 - seconds; i >= 0; i--) {
-        navigator.notification.vibrate(0200);
+        navigator.vibrate(0200);
     };
 }
