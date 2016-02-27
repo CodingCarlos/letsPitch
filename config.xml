@@ -44,8 +44,6 @@
     <!-- <preference name="phonegap-version"       value="cli-5.1.1" /> -->
     <preference name="phonegap-version"       value="cli-5.2.0" />
 
-    <preference name="android-build-tool" value="gradle" />
-
     <!-- Plugins -->
 
     <!-- Core plugins -->
@@ -72,12 +70,6 @@
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-
-    <gap:plugin name="cordova-plugin-intercom" version="~1.1.4" source="npm" >
-        <param name="APP_ID" value="dj8x5r5x" />
-        <param name="ANDROID_API_KEY" value="android_sdk-df70f8dccd7457ff1dcf93f8169595e0eeb3491e" />
-    </gap:plugin>
-
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
