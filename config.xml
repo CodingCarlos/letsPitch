@@ -76,7 +76,6 @@
     <gap:plugin name="cordova-plugin-intercom" version="~1.1.4" source="npm" >
         <param name="APP_ID" value="dj8x5r5x" />
         <param name="ANDROID_API_KEY" value="android_sdk-df70f8dccd7457ff1dcf93f8169595e0eeb3491e" />
-        <param name="IOS_API_KEY" value="" />
     </gap:plugin>
 
     <!--
